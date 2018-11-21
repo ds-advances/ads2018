@@ -3,7 +3,7 @@ title: "Advances in Data Science, 2018"
 email: "dsi.enquiries@manchester.ac.uk"
 description: >
   A 2-day workshop showcasing recent advances in data science methodology and applications.
-baseurl: "ds-advances2018" # the subpath of your site, e.g. /blog/
+baseurl: "/ds-advances2018" # the subpath of your site, e.g. /blog/
 url: "http://ds-advances.github.io" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
