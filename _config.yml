@@ -7,11 +7,16 @@ baseurl: "/ds-advances2018" # the subpath of your site, e.g. /blog/
 url: "http://ds-advances.github.io" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
 
 previous_meeting:
  url: /ds-advances2017
 
-github:
+gthub:
   edit: true
   repository: ds-advances.github.io
 
@@ -43,7 +48,10 @@ conference:
   
   room: Conference Suite
   venue: Museum of Science and Industry
+  venue_url: https://www.scienceandindustrymuseum.org.uk
   location: Manchester, UK
+  short_name : MADS
+  full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2018
   month: May
@@ -62,16 +70,23 @@ conference:
   - name: Cathie Marsh Institute for Social Research
     url: "https://www.cmist.manchester.ac.uk/"
   organizers:
-  - name: Magnus Rattray
-    url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - name: Rachel Gibson
-    url: "http://www.rachelgibson.info"
-  - name: Mark Elliot
-    url: "https://www.research.manchester.ac.uk/portal/mark.elliot.html"
-  - name: Suzy Moat
-    url: "http://www.wbs.ac.uk/about/person/suzy-moat/"
-  - name: Neil Lawrence
-    url: "http://inverseprobability.com/"
+  - type: Organizers
+    people:
+    - given: Magnus
+      family: Rattray
+      url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
+    - given: Rachel
+      family: Gibson
+      url: "http://www.rachelgibson.info"
+    - given: Mark
+      family: Elliot
+      url: "https://www.research.manchester.ac.uk/portal/mark.elliot.html"
+    - given: Suzy
+      family: Moat
+      url: "http://www.wbs.ac.uk/about/person/suzy-moat/"
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com/"
 
 map:
   show: False
