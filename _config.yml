@@ -14,7 +14,7 @@ plugins:
 remote_theme: lawrennd/proceedings
 
 previous_meeting:
- url: /ds-advances2017
+ url: /ds-advances2018
 
 gthub:
   edit: true
