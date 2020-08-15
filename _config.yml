@@ -14,6 +14,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
+style: mads
 
 previous_meeting:
  url: /ds-advances2018
@@ -71,7 +72,7 @@ conference:
     url: "http://www.datascience.manchester.ac.uk/"
   - name: Cathie Marsh Institute for Social Research
     url: "https://www.cmist.manchester.ac.uk/"
-  organizers:
+  chairs:
   - type: Organizers
     people:
     - given: Magnus
