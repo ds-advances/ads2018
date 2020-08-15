@@ -54,6 +54,8 @@ conference:
   venue_url: https://www.scienceandindustrymuseum.org.uk
   location: Manchester, UK
   short_name : MADS
+  instance: 2nd
+  styling: Workshop on
   full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2018
