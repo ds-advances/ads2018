@@ -26,7 +26,6 @@ gthub:
 youtube:
   height: 315
   width: 560
-
   
 markdown: kramdown
 
