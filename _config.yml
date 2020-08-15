@@ -19,7 +19,7 @@ style: mads
 previous_meeting:
  url: /ds-advances2018
 
-gthub:
+ghub:
   edit: true
   repository: ds-advances2018
 
@@ -78,20 +78,25 @@ conference:
     people:
     - given: Magnus
       family: Rattray
+      institute: The University of Manchester
       url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
     - given: Rachel
       family: Gibson
+      institute: The University of Manchester
       url: "http://www.rachelgibson.info"
     - given: Mark
       family: Elliot
+      institute: The University of Manchester
       url: "https://www.research.manchester.ac.uk/portal/mark.elliot.html"
     - given: Suzy
       family: Moat
+      institute: Warwick Business School
       url: "http://www.wbs.ac.uk/about/person/suzy-moat/"
     - given: Neil D.
       family: Lawrence
+      institute: Amazon Cambridge and the University of Sheffield
       url: "http://inverseprobability.com/"
-
+      
 map:
   show: False
   mapbox:
