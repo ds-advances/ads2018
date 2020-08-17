@@ -5,7 +5,7 @@ author:
   email: "dsi.enquiries@manchester.ac.uk"
 description: >
   A 2-day workshop showcasing recent advances in data science methodology and applications.
-baseurl: "/ds-advances2018" # the subpath of your site, e.g. /blog/
+baseurl: "/ads2018" # the subpath of your site, e.g. /blog/
 url: "http://ds-advances.github.io" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
@@ -14,14 +14,14 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
-style: mads
+style: ads
 
 previous_meeting:
- url: /ds-advances2018
+ url: /ads2017
 
 ghub:
   edit: true
-  repository: ds-advances2018
+  repository: ads2018
 
 youtube:
   height: 315
@@ -52,7 +52,7 @@ conference:
   venue: Museum of Science and Industry
   venue_url: https://www.scienceandindustrymuseum.org.uk
   location: Manchester, UK
-  short_name : MADS
+  short_name : ADS
   instance: 2nd
   styling: Workshop on
   full_name: Advances in Data Science
